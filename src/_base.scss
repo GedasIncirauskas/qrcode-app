@@ -1,0 +1,38 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+.body {
+  margin: 20px auto;
+  width: 80%;
+}
+
+.body {
+  table td {
+    text-align: center;
+    vertical-align: baseline;
+    width: 16%;
+  }
+}
+.body {
+  table th {
+    text-align: center;
+    vertical-align: baseline;
+    width: 10%;
+  }
+}
+
+@media print {
+  .form-group {
+    display: none;
+  }
+  .printNotShow {
+    display: none;
+  }
+  .body {
+    table {
+      width: 10%;
+    }
+    table td {
+      text-align: left;
+    }
+  }
+}
